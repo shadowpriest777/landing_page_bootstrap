@@ -1,0 +1,59 @@
+*{
+    font-family: 'Aria', sans-serif;
+}
+p{
+    font-size: 18px;
+}
+.bg_top {
+    background-image: url(/img/intro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 799px;
+}
+.bg_bottom {
+    background-image: url(/img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 531px;
+    vertical-align: bottom;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+}
+.main_text {
+    margin-top: 287px;
+    font-size: 72px;
+}
+.center {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.section3 {
+    margin-top: 34px;
+    margin-bottom: 104px;
+}
+.pad {
+    padding-top: 56px;
+}
+.bg_main {
+   background-image: url(/img/bg_main.png);
+   background-repeat: repeat-x;
+}
+
+.bt_pad {
+    padding-bottom: 47px;
+}
+a img {
+    transition: 0.7s;
+}
+
+a img:hover{
+    box-shadow: 10px 10px 0px 0px #bf2828;
+    opacity: 0.7;
+}
+.marg_top {
+    margin-top: 241px;
+}
