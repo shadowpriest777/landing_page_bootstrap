@@ -1,65 +1,85 @@
-*{
+* {
     font-family: 'Aria', sans-serif;
-}
-p{
     font-size: 18px;
 }
-strong {
-    font-size: 36px;
+p {
+    font-size: 1em;
 }
+
+strong {
+    font-size: 2em;
+}
+
 .bg_top {
     background-image: url(../img/intro-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 799px;
 }
+
 .bg_bottom {
     background-image: url(../img/banner-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 531px;
-    vertical-align: bottom;
+    height: 521px;
 }
-h3, h2 {
+.show_doge{
+    display: none;     
+}
+h3,
+h2 {
     font-weight: bold!important;
 }
+
 .text {
     text-align: center;
     color: #fff;
 }
+
 .main_text {
-    margin-top: 287px;
-    font-size: 72px;
+    margin-top: 17.9375%;
+    font-size: 4em;
     font-weight: bold;
 }
+
 .center {
     text-align: center;
     margin-top: 22px;
 }
 
-.section3 {
-    margin-top: 34px;
-    margin-bottom: 104px;
+.section_1,
+.section_2{
+    height: 100%;
+    margin: 2% auto;
 }
+
 .pad {
     padding-top: 56px;
 }
+
 .bg_main {
-   background-image: url(../img/bg_main.png);
-   background-repeat: repeat-x;
+    background-image: url(../img/bg_main.png);
+    background-repeat: repeat-x;
 }
 
 .bt_pad {
     padding-bottom: 47px;
 }
+.pic_hide
+{  
+    display: none;
+}
 a img {
+    -webkit-transition: 0.7s;
     transition: 0.7s;
 }
 
-a img:hover{
+a img:hover {
+    -webkit-box-shadow: 10px 10px 0px 0px #bf2828;
     box-shadow: 10px 10px 0px 0px #bf2828;
     opacity: 0.7;
 }
+
 .marg_top {
     margin-top: 241px;
 }

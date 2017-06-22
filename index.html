@@ -10,68 +10,103 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/media.css">
 
 </head>
 
 <body>
     <div class="container-fluid bg_top">
-            <div class="container">
-                <header class="row text"><!-- start header-->
-                    <h1 class="main_text">Landing Page</h1>
-                    <h2>A Template by Start Bootstrap</h2>
-                </header><!-- /header  -->
-                <div class="row center"><!-- button group -->
-                     <a href="#" class="btn btn-lg"><img src="img/tw.png" alt=""></a>
-                     <a href="#" class="btn btn-lg"><img src="img/google.png" alt=""></a>
-                     <a href="#" class="btn btn-lg"><img src="img/vk.png" alt=""></a>
-                </div><!-- /button group  -->
-            </div> <!-- /.container -->
-    </div> <!-- /.bg_top -->
-        <div class="container-fluid bg_main">
-            <div class="container">
-                <section class="row section3"><!-- start section 1 -->
-                    <div class="col-md-6 pad">
-                        <h3 class="h1">Death to the Stock Photo: Special Thanks</h3>
-                        <p>A special thanks to Death to the Stock Photo for providing the photographs that you see in this template. Visit their website to become a member.</p>
-                    </div>
-                    <div class="col-md-5 col-md-offset-1">
-                        <img src="img/ipad.png" alt="">
-                    </div>
-                </section><!-- /section 1  -->
-                <section class="row"><!-- start section 2 -->
-                    <div class="col-md-5">
-                        <img src="img/doge.png" alt="">
-                    </div>
-                    <div class="col-md-6 col-md-offset-1 pad">
-                        <h3 class="h1">3D Device Mockups by PSDCovers</h3>
-                        <p>Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by PSDCovers! Visit their website to download some of their awesome, free photoshop actions!</p>
-                    </div>
-                </section><!-- /section 2  -->
-                <section class="row"><!-- start section 3 -->
-                    <div class="col-md-6 pad">
-                        <h3 class="h1">Google Web Fonts and Font Awesome Icons</h3>
-                        <p>This template features the 'Lato' font, part of the Google Web Font library, as well as icons from Font Awesome.</p>
-                    </div>
-                    <div class="col-md-5 col-md-offset-1 bt_pad">
-                        <img src="img/phones.png" alt="">
-                    </div>
-                </section><!-- /section 3  -->
+        <div class="container">
+            <header class="row text">
+                <!-- start header-->
+                <h1 class="main_text">Landing Page</h1>
+                <h2>A Template by Start Bootstrap</h2>
+            </header>
+            <!-- /header  -->
+            <div class="row center pic pic_show">
+                <!-- button group -->
+                <a href="#" class="btn btn-lg"><img src="img/tw.png" alt="twitter"></a>
+                <a href="#" class="btn btn-lg"><img src="img/google.png" alt="google"></a>
+                <a href="#" class="btn btn-lg"><img src="img/vk.png" alt="vkontakte"></a>
+                </div>
+                <div class="col-lg-7 col-md-3 col-xs-12 center pic pic_hide">
+                    <!-- button group_min show-->
+                <a href="#" class="btn"><img src="img/tw_min.png" alt="twitter"></a>
+                <a href="#" class="btn"><img src="img/goog_min.png" alt="google"></a>
+                <a href="#" class="btn"><img src="img/vk_min.png" alt="vkontakte"></a>
             </div>
-        </div><!-- /.container -->
-     <div class="container-fluid bg_bottom">
-            <div class="container">
-                <div class="row text marg_top"><!-- start section4 -->
-                    <div class="col-md-5">
-                        <h1>Connect to Start Bootstrap:</h1>
-                    </div>
-                    <div class="col-md-7"><!-- start button group -->
-                     <a href="#" class="btn btn-lg pull-right"><img src="img/vk.png" alt=""></a>
-                     <a href="#" class="btn btn-lg pull-right"><img src="img/google.png" alt=""></a>
-                     <a href="#" class="btn btn-lg pull-right"><img src="img/tw.png" alt=""></a>
-                    </div><!-- start button group -->
-                </div><!-- /section 4  -->
-            </div><!-- /.container -->
-    </div><!-- /.bg_bottom -->
+            <!-- /.button group  -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.bg_top -->
+    <div class="container-fluid bg_main">
+        <div class="container">
+            <section class="row section_1">
+                <!-- start section 1 -->
+                <div class="col-lg-6 col-md-6 pad col-xs-12">
+                    <h3 class="h1">Death to the Stock Photo: Special Thanks</h3>
+                    <p>A special thanks to Death to the Stock Photo for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                </div>
+                <div class="col-lg-5 col-md-6 col-lg-offset-1 col-xs-12">
+                    <img src="img/ipad.png" alt="">
+                </div>
+            </section>
+            <!-- /.section 1  -->
+            <section class="row section_2">
+                <!-- start section 2 -->
+                <div class="col-lg-5 col-md-6 col-xs-12 hide_doge">
+                    <img src="img/doge.png" alt="">
+                </div>
+                <div class="col-lg-6 col-lg-offset-1 col-md-6  col-xs-12 pad">
+                    <h3 class="h1">3D Device Mockups by PSDCovers</h3>
+                    <p>Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by PSDCovers! Visit their website to download some of their awesome, free photoshop actions!</p>
+                </div>
+                <div class="col-md-6 col-xs-12 show_doge">
+                <img src="img/doge.png" alt="">
+                </div>
+            </section>
+            <!-- /.section 2  -->
+            <section class="row">
+                <!-- start section 3 -->
+                <div class="col-lg-6 col-md-6 pad col-xs-12">
+                    <h3 class="h1">Google Web Fonts and Font Awesome Icons</h3>
+                    <p>This template features the 'Lato' font, part of the Google Web Font library, as well as icons from Font Awesome.</p>
+                </div>
+                <div class="col-lg-5 col-md-6 col-lg-offset-1 col-xs-12 bt_pad">
+                    <img src="img/phones.png" alt="">
+                </div>
+            </section>
+            <!-- /.section 3  -->
+        </div>
+    </div>
+    <!-- /.container -->
+    <div class="container-fluid bg_bottom">
+        <div class="container">
+            <div class="row text marg_top">
+                <!-- start section4 -->
+                <div class="col-lg-5 col-md-8 col-xs-12">
+                    <h1>Connect to Start Bootstrap:</h1>
+                </div>
+                <div class="col-lg-7 col-md-3 col-xs-12 pic pic_show">
+                    <!-- start button group -->
+                <a href="#" class="btn btn-lg"><img src="img/tw.png" alt="twitter"></a>
+                <a href="#" class="btn btn-lg"><img src="img/google.png" alt="google"></a>
+                <a href="#" class="btn btn-lg"><img src="img/vk.png" alt="vkontakte"></a>
+                </div>
+                <div class="col-lg-7 col-md-3 col-xs-12 pic pic_hide">
+                    <!-- button group_min show-->
+                <a href="#" class="btn btn-lg"><img src="img/tw_min.png" alt="twitter"></a>
+                <a href="#" class="btn btn-lg"><img src="img/goog_min.png" alt="google"></a>
+                <a href="#" class="btn btn-lg"><img src="img/vk_min.png" alt="vkontakte"></a>
+                </div>
+                
+            </div>
+            <!-- /.section 4  -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.bg_bottom -->
 </body>
 
 </html>
